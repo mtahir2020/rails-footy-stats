@@ -1,0 +1,10 @@
+<h1>Clubs</h1>
+
+<form action="/clubs" method="get">
+  <input type="text" name="search" value="<%=params[:search]%>">
+  <input type="submit">
+</form>
+
+<% @clubs.each do |club| %>
+  <li><%= link_to club.name, club_path(club) %></li>
+<% end %>

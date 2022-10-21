@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  appearances: 1
+  goals: 1
+  club: one
+
+two:
+  name: MyString
+  appearances: 1
+  goals: 1
+  club: two

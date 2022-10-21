@@ -1,0 +1,9 @@
+<h1><%= @club.name %></h1>
+
+<h3>Players:</h3>
+<% @club.players.each do |player| %>
+  <h5><%= player.name %></h5>
+  <p><b>Goals scored:</b> <%= player.goals %></p>
+<% end %>
+
+<%= link_to "Back to clubs", clubs_path %>
